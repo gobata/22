@@ -197,13 +197,13 @@ footer p {
 	width:100%;
 	color:#000;
 	background: #E5E5DC;
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
 /*ABOUT*/
 .page-h1 {
-text-align:center;
-font-size:30px;
+	text-align:left;
+	font-weight: bold;
 }
 table {
 	width:100%;
@@ -320,7 +320,7 @@ body{
 /*seki追記*/
 .archives {
 margin :30px auto;
-width:980px;
+width:80%;
 min-height:30em;
 }
 .archives h2 {
@@ -478,25 +478,26 @@ footer p {
 	background:#fff;
 }
 .page .contents_area {
-	width:1100px;
+	width:80%;
 	margin:0 auto;
 	padding:40px 0 100px;
 }
 .h1-outer {
 	width:100%;
 	background:#E5E5DC;
-	font-size:50px;
-	padding:40px 0;
+	font-size:25px;
+	padding:20px 0;
 }
 
 .h1-outer .wrap {
-	width:1100px;
+	width:80%;
 	color:#000;
 }
 
 /*ABOUT*/
 .page-h1{
-	text-align:center;
+	text-align:left;
+	font-weight: bold;
 }
 table {
 	width:100%;
@@ -511,7 +512,7 @@ table td {
 	padding:20px 0;
 }
 .abt-tbl {
-	width:80%;
+	max-width:80%;
 	margin:0 auto;
 }
 .abt-tbl th,.abt-tbl td  {
