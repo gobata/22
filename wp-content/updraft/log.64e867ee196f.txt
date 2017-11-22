@@ -1,0 +1,165 @@
+0000.000 (0) Opened log file at time: Wed, 08 Feb 2017 08:33:57 +0000 on http://space-panda22.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.32 WP: 4.6.3 PHP: 5.6.21 (apache2handler, Linux users415.phy.lolipop.jp 4.8.14.pepabo #1 SMP Mon Dec 12 16:40:09 JST 2016 x86_64) MySQL: 5.6.23 WPLANG: ja Server: Apache safe_mode: 0 max_execution_time: 120 memory_limit: 128M (used: 38.8M | 42M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 6742754.3 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.012 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.015 (0) Set semaphore last lock (fd) time to 2017-02-08 08:33:57
+0000.016 (0) Semaphore lock (fd) complete
+0000.021 (0) Backup run: resumption=0, nonce=64e867ee196f, begun at=1486542837 (0s ago), job type=backup
+0000.023 (0) Scheduling a resumption (1) after 300 seconds (1486543137) in case this run gets aborted
+0000.033 (0) Checking if we have a zip executable available
+0000.035 (0) Testing: /usr/bin/zip
+0000.064 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.066 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.067 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.068 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.069 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.099 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.100 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.108 (0) Working binary zip found: /usr/bin/zip
+0000.110 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.111 (0) Creation of backups of directories: beginning
+0000.114 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.277 (0) Total entities for the zip file: 270 directories, 1857 files (0 skipped as non-modified), 31.5 MB
+0000.284 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.290 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.295 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.302 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.311 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.313 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 1857 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.720 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: size is now: 1.60 MB
+0000.732 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 600 files added (on-disk size: 1615.6 KB)
+0000.741 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 700 files added (on-disk size: 1615.6 KB)
+0000.750 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 800 files added (on-disk size: 1615.6 KB)
+0000.764 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 900 files added (on-disk size: 1615.6 KB)
+0000.781 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 1000 files added (on-disk size: 1615.6 KB)
+0000.784 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 1857 files batched, 501 (1002) added so far); re-opening (prior size: 1615.6 KB)
+0000.960 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: size is now: 2.30 MB
+0000.974 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 1100 files added (on-disk size: 2361.9 KB)
+0000.983 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 1200 files added (on-disk size: 2361.9 KB)
+0000.992 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 1300 files added (on-disk size: 2361.9 KB)
+0000.999 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 1400 files added (on-disk size: 2361.9 KB)
+0001.007 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 1500 files added (on-disk size: 2361.9 KB)
+0001.008 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.6 MB, 1857 files batched, 501 (1503) added so far); re-opening (prior size: 2361.9 KB)
+0002.042 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: size is now: 7.50 MB
+0002.050 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 1600 files added (on-disk size: 7699.1 KB)
+0002.056 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 1700 files added (on-disk size: 7699.1 KB)
+0002.063 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: 1800 files added (on-disk size: 7699.1 KB)
+0002.940 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip.tmp: size is now: 11.40 MB
+0003.037 (0) Created plugins zip (0) - 11666.6 KB in 2.9 s (3993.8 KB/s) (SHA1 checksum: 1d00e7ff66f28d16a3e95a0fc5d2a26bf4944f21)
+0003.042 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.055 (0) Total entities for the zip file: 27 directories, 207 files (0 skipped as non-modified), 18 MB
+0003.060 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.065 (0) Zip: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.518 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-themes.zip.tmp: size is now: 16.90 MB
+0003.614 (0) Created themes zip (0) - 17289.7 KB in 0.6 s (30338.1 KB/s) (SHA1 checksum: 261544f4b456c39f2e09bb1f7070e6e9d71097d5)
+0003.618 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0003.619 (0) Looking for candidates to back up in: /home/users/0/ciao.jp-space-panda22/web/panda/wp-content/uploads
+0003.620 (0) finding files: 2016: adding to list (1)
+0003.621 (0) finding files: 2017: adding to list (2)
+0003.622 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0003.627 (0) Total entities for the zip file: 7 directories, 3 files (0 skipped as non-modified), 0 MB
+0003.668 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-uploads.zip.tmp: size is now: 0.00 MB
+0003.675 (0) Created uploads zip (0) - 28.8 KB in 0.1 s (560.2 KB/s) (SHA1 checksum: a1dffe9d66382c00704f1b0e3040f17db03c6edb)
+0003.680 (0) Beginning backup of other directories found in the content directory (index: 0)
+0003.682 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0003.684 (0) Looking for candidates to back up in: /home/users/0/ciao.jp-space-panda22/web/panda/wp-content
+0003.686 (0) finding files: themes: skipping: this is the themes directory
+0003.687 (0) finding files: upgrade: skipping: excluded by options
+0003.689 (0) finding files: index.php: adding to list (1)
+0003.690 (0) finding files: uploads: skipping: this is the uploads directory
+0003.692 (0) finding files: cache: skipping: excluded by options
+0003.693 (0) finding files: plugins: skipping: this is the plugins directory
+0003.695 (0) finding files: updraft: skipping: this is the updraft directory
+0003.696 (0) finding files: languages: adding to list (2)
+0003.700 (0) Total entities for the zip file: 3 directories, 19 files (0 skipped as non-modified), 1.6 MB
+0003.927 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-others.zip.tmp: size is now: 0.40 MB
+0003.937 (0) Created others zip (0) - 459.1 KB in 0.2 s (1918.5 KB/s) (SHA1 checksum: 495a632a29b74ec7bc6348193c6e1ae42a843522)
+0003.944 (0) Saving backup status to database (elements: 8)
+0003.947 (0) Beginning creation of database dump (WordPress DB)
+0003.951 (0) Testing: /usr/bin/mysqldump
+0004.008 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp1_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCR (truncated - 1088 bytes total)
+0004.012 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0004.021 (0) Table wp1_options: Total expected rows (approximate): 183
+0004.065 (0) Table wp1_options: Total rows added: 179 in 0.04 seconds
+0004.068 (0) Table wp1_options: finishing file (backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_options.table.gz - 40.8 KB)
+0004.074 (0) Table wp1_users: Total expected rows (approximate): 0
+0004.078 (0) Table wp1_users: Total rows added: 2 in 0.00 seconds
+0004.079 (0) Table wp1_users: finishing file (backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_users.table.gz - 0.6 KB)
+0004.086 (0) Table wp1_usermeta: Total expected rows (approximate): 35
+0004.091 (0) Table wp1_usermeta: Total rows added: 36 in 0.00 seconds
+0004.093 (0) Table wp1_usermeta: finishing file (backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_usermeta.table.gz - 1.2 KB)
+0004.099 (0) Table wp1_commentmeta: Total expected rows (approximate): 0
+0004.102 (0) Table wp1_commentmeta: Total rows added: 0 in 0.00 seconds
+0004.103 (0) Table wp1_commentmeta: finishing file (backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_commentmeta.table.gz - 0.3 KB)
+0004.108 (0) Table wp1_comments: Total expected rows (approximate): 0
+0004.111 (0) Table wp1_comments: Total rows added: 0 in 0.00 seconds
+0004.112 (0) Table wp1_comments: finishing file (backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_comments.table.gz - 0.5 KB)
+0004.118 (0) Table wp1_links: Total expected rows (approximate): 0
+0004.122 (0) Table wp1_links: Total rows added: 0 in 0.00 seconds
+0004.124 (0) Table wp1_links: finishing file (backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_links.table.gz - 0.4 KB)
+0004.129 (0) Table wp1_postmeta: Total expected rows (approximate): 93
+0004.135 (0) Table wp1_postmeta: Total rows added: 93 in 0.01 seconds
+0004.136 (0) Table wp1_postmeta: finishing file (backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_postmeta.table.gz - 3.7 KB)
+0004.141 (0) Table wp1_posts: Total expected rows (approximate): 56
+0004.178 (0) Table wp1_posts: Total rows added: 58 in 0.02 seconds
+0004.180 (0) Table wp1_posts: finishing file (backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_posts.table.gz - 6 KB)
+0004.185 (0) Table wp1_term_relationships: Total expected rows (approximate): 10
+0004.190 (0) Table wp1_term_relationships: Total rows added: 10 in 0.00 seconds
+0004.192 (0) Table wp1_term_relationships: finishing file (backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_term_relationships.table.gz - 0.4 KB)
+0004.197 (0) Table wp1_term_taxonomy: Total expected rows (approximate): 3
+0004.200 (0) Table wp1_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0004.202 (0) Table wp1_term_taxonomy: finishing file (backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_term_taxonomy.table.gz - 0.4 KB)
+0004.207 (0) Table wp1_termmeta: Total expected rows (approximate): 0
+0004.210 (0) Table wp1_termmeta: Total rows added: 0 in 0.00 seconds
+0004.211 (0) Table wp1_termmeta: finishing file (backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_termmeta.table.gz - 0.3 KB)
+0004.230 (0) Table wp1_terms: Total expected rows (approximate): 3
+0004.233 (0) Table wp1_terms: Total rows added: 3 in 0.00 seconds
+0004.234 (0) Table wp1_terms: finishing file (backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_terms.table.gz - 0.4 KB)
+0004.238 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_options.table.gz (1/12): adding to final database dump
+0004.249 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_users.table.gz (2/12): adding to final database dump
+0004.252 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_usermeta.table.gz (3/12): adding to final database dump
+0004.253 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_commentmeta.table.gz (4/12): adding to final database dump
+0004.255 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_comments.table.gz (5/12): adding to final database dump
+0004.256 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_links.table.gz (6/12): adding to final database dump
+0004.258 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_postmeta.table.gz (7/12): adding to final database dump
+0004.260 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_posts.table.gz (8/12): adding to final database dump
+0004.265 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_term_relationships.table.gz (9/12): adding to final database dump
+0004.266 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_term_taxonomy.table.gz (10/12): adding to final database dump
+0004.268 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_termmeta.table.gz (11/12): adding to final database dump
+0004.269 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db-table-wp1_terms.table.gz (12/12): adding to final database dump
+0004.271 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db.gz: finished writing out complete database file (48 KB)
+0004.277 (0) Total database tables backed up: 12 (backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db.gz, size: 52630, checksum (SHA1): 0693e6d25d1e3b291ba5c17dfe224567b7bafeb6)
+0004.285 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0004.287 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0004.288 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0004.289 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0004.290 (0) backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0004.292 (0) Saving backup history. Total backup size: 28.8 MB
+0004.295 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0004.298 (0) Cloud backup selection (1/1): none (last)
+0004.299 (0) No remote despatch: user chose no remote backup service
+0004.302 (0) Recording as successfully uploaded: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-plugins.zip (8ede06c8d39c51f8b2fa6830f052b23a)
+0004.308 (0) Recording as successfully uploaded: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-themes.zip (d96308a0b123431882b6b3dcfd196516)
+0004.314 (0) Recording as successfully uploaded: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-uploads.zip (8461283771aab9a55eb48636e290be49)
+0004.321 (0) Recording as successfully uploaded: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-others.zip (fc77e53911ef7172dc888609d18c66ad)
+0004.326 (0) Recording as successfully uploaded: backup_2017-02-08-1733_spacepanda22com_64e867ee196f-db.gz (7abcd226a8ddec002be5ccf2f4a873a4)
+0004.334 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0004.335 (0) Number of backup sets in history: 1; groups (db): 1
+0004.337 (0) Examining (for databases) backup set with group_id=0, nonce=64e867ee196f, datestamp=1486542837 (Feb 08 2017 08:33:57)
+0004.338 (0) This backup set is the backup set just made, so will not be deleted.
+0004.339 (0) Number of backup sets in history: 1; groups (files): 1
+0004.341 (0) Examining (for files) backup set with nonce=64e867ee196f, datestamp=1486542837 (Feb 08 2017 08:33:57)
+0004.342 (0) This backup set is the backup set just made, so will not be deleted.
+0004.343 (0) This backup set is the backup set just made, so will not be deleted.
+0004.343 (0) This backup set is the backup set just made, so will not be deleted.
+0004.343 (0) This backup set is the backup set just made, so will not be deleted.
+0004.344 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.345 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0004.349 (0) Resume backup (64e867ee196f, 0): finish run
+0004.355 (0) Decremented the semaphore (fd) by 1
+0004.357 (0) Semaphore (fd) unlocked
+0004.358 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0004.363 (0) The backup apparently succeeded and is now complete
+0004.365 (0) No email will/can be sent - the user has not configured an email address.
+0004.366 (0) バックアップは成功し完了しました。
