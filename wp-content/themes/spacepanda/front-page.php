@@ -1,52 +1,71 @@
-<?php
-get_header(); ?>
+<?php get_header(); ?>
 
 
-
-<script>
- $(function(){
-        $.sublime_slideshow({
-            src:[
-            {url:"<?php echo get_template_directory_uri(); ?>/images/1.jpg"},
-            {url:"<?php echo get_template_directory_uri(); ?>/images/2.jpg"},
-            {url:"<?php echo get_template_directory_uri(); ?>/images/3.jpg"}
-            ],
-            duration:   7,
-            fade:       1,
-            scaling:    1.2,
-            rotating:   2,
-            overlay:    "<?php echo get_template_directory_uri(); ?>/images/pattern.png"
-        });
-    });
-    
-</script>
 
 <div class="wrap">
-<main class="contents_area clearfix index">
-<img src="<?php echo get_template_directory_uri(); ?>/images/parts/top_logo.png" alt="spacepanda22" class="top_logo">
-</main>
+  <section class='top_image section' style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/top01.jpg');">
+  </section>
+
+  <section >
+    <div class='about_inbound'>
+      <div class='top_contents'>
+        <div class='content_title'>
+          <span class="glyphicon glyphicon-globe"></span>
+          インバウンド事業
+        </div>
+        <div class='line_content'></div>
+        <div class='content_description'>
+          創業当時より培ってきたテレビ番組制作のノウハウをフルに活用し、<br/>
+          インバウンド向けの動画制作・イベント企画を中心に<br/>
+          大手企業では実現しにくい100%地域特性に応じたコンサルティング、<br/>
+          さらに独自の送客ルートを活用したMICEの誘致など<br/>
+          地域と二人三脚でインバウンド活性化に務めるDMC的企業を目指します。
+        </div>
+
+        <a class='detail_button' href='<?php echo home_url(); ?>/category/inbound/'>もっと詳しく</a>
+
+      </div>
+    </div>
+
+    <div class='about_tvshow'>
+      <div class='top_contents'>
+        <div class='content_title'>
+          <span class="glyphicon glyphicon-bullhorn"></span>
+          テレビ制作協力事業
+        </div>
+        <div class='line_content'></div>
+        <div class='content_description'>
+          テレビ番組の制作、イベント事業、ネット動画事業など<br/>
+          経験豊富なスタッフが様々なエンターテインメントの創出に日々尽力しております。
+        </div>
+        <div class='content_box'>
+          <p>テレビ朝日「橋下×羽鳥の番組」</p>
+          <p>テレビ東京「家、ついて行ってイイですか？」</p>
+          <p>関西テレビ「ブラマヨ小杉のいいね！ハンターズ」</p>
+          <p>テレビ朝日「緊Ｑ国会！世界の名案」</p>
+          <p>テレビ朝日「お願い！ランキング特別編　あのランキング変えたの私です！」</p>
+        </div>
+        <a class='detail_button' href='<?php echo home_url(); ?>/category/works/'>もっと詳しく</a>
+      </div>
+    </div>
+
+    <div class='news_list'>
+      <div class='top_contents'>
+        <div class='content_title'>
+          <span class="glyphicon glyphicon-inbox"></span>
+          News
+        </div>
+        <div class='line_content'></div>
+        <div class='content_box'>
+          <p>テレビ朝日「橋下×羽鳥の番組」</p>
+          <p>テレビ東京「家、ついて行ってイイですか？」</p>
+          <p>関西テレビ「ブラマヨ小杉のいいね！ハンターズ」</p>
+          <p>テレビ朝日「緊Ｑ国会！世界の名案」</p>
+          <p>テレビ朝日「お願い！ランキング特別編　あのランキング変えたの私です！」</p>
+        </div>
+        <a class='detail_button' href='<?php echo home_url(); ?>/category/news/'>もっと見る</a>
+      </div>
+    </div>
+    <?php get_footer();?>
+  </section>
 </div><!--wrap-->
-
-
-
-
-<ul class="top-info">
-<?php query_posts('showposts=2');
-if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-<li><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></li>
-
-<?php endwhile; endif; wp_reset_query(); ?>
-
-</ul>
-
-</div>
-
-
-
-
-
-
-
-
-<?php get_footer();?>

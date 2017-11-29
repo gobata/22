@@ -13,62 +13,64 @@
  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pure-drawer.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/sublimeSlideshow.css" media="all" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
-<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
- <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.8.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/pc_style.css">
+
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.8.0.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.sublimeSlideshow.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/drawer.js"></script>
-<?php if(is_front_page()): ?>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.stickystack.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
 <script>
- $(function(){
-        $.sublime_slideshow({
-            src:[
-            {url:"<?php echo get_template_directory_uri(); ?>/images/1.jpg"},
-            {url:"<?php echo get_template_directory_uri(); ?>/images/2.jpg"},
-            {url:"<?php echo get_template_directory_uri(); ?>/images/3.jpg"}
-            ],
-            duration:   7,
-            fade:       1,
-            scaling:    1.2,
-            rotating:   2,
-            overlay:    "<?php echo get_template_directory_uri(); ?>/images/pattern.png"
-        });
+$(function(){
+    $('.wrap').stickyStack({
+        containerElement: '.wrap',
+        stackingElement: 'section',
+        boxShadow: '0 -3px 20px rgba(0, 0, 0, 0.25)'
     });
-    
+})
 </script>
-<?php endif; ?>
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 
-<header class="clearfix">
-<h1 class="header_logo"><a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/parts/header_logo.png" alt="spacepanda22"></a></h1>
-<nav class="sp-none">
-<?php wp_nav_menu(
-    array(
-        'container' => false ,
-        'items_wrap' => '<ul class="gnav clearfix">%3$s</ul>'
-    )
-); ?>
-</nav>
+  <header class="clearfix">
+    <div class='header_contents'>
+      <h1 class="header_logo">
+        <a href="/">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/parts/header_logo.png" alt="spacepanda22">
+        </a>
+      </h1>
+      <nav class="sp-none">
+        <?php wp_nav_menu(
+          array(
+            'container' => false ,
+            'items_wrap' => '<ul class="gnav clearfix">%3$s</ul>'
+          )
+        ); ?>
+      </nav>
+    </div>
+    <!-- スマホ用 -->
+    <div class="pure-container pc-none" data-effect="pure-effect-scaleRotate">
+      <input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left"/>
+      <label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left">
+        <span class="pure-toggle-icon"></span>
+      </label>
 
-<div class="pure-container pc-none" data-effect="pure-effect-scaleRotate">
-  <input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left"/>
-  <label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left"><span class="pure-toggle-icon"></span></label>
- 
-  <nav class="pure-drawer" data-position="left">
-
-<!-- ここがドロワーメニュー -->
-
-<?php wp_nav_menu(
-    array(
-        'container' => false ,
-        'items_wrap' => '<ul>%3$s</ul>'
-    )
-); ?>
-
-      </ul>
-  </nav>
-</div>
+      <nav class="pure-drawer" data-position="left">
+        <?php wp_nav_menu(
+          array(
+            'container' => false ,
+            'items_wrap' => '<ul>%3$s</ul>'
+          )
+        ); ?>
+      </nav>
+    </div>
 
 
 </header>

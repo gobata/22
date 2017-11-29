@@ -15,7 +15,7 @@ function hideWidgetTitle($title) {
     $title = trim($title);
     if ($title === 'category') {
         return '';
-    } 
+    }
 }
 add_filter( 'widget_title' , 'hideWidgetTitle' );
 
@@ -39,6 +39,12 @@ add_image_size('thumb100',100,100,true);
 //アーカイブ用画像サイズ指定
 // add_image_size('thumb120', 120, 120, true );
 add_image_size('thumb120', 193, 135, true );
+
+
+if (!current_user_can('level_10')) { //level10（編集者）以下のユーザーの場合
+  // 編集者に管理パネル設定へのアクセスを許可を与える
+  get_role('editor')->add_cap('edit_theme_options');
+}
 
 
 //ページネーション
@@ -124,7 +130,7 @@ add_filter( 'gettext', 'change_username_text' );
 
 // フッターWordPressリンクを非表示に
 function custom_admin_footer() {
- echo 'spzce-panda';
+ echo 'space-panda';
  }
 add_filter('admin_footer_text', 'custom_admin_footer');
 
@@ -160,5 +166,3 @@ function disable_page_wpautop() {
 	if ( is_page() ) remove_filter( 'the_content', 'wpautop' );
 }
 add_action( 'wp', 'disable_page_wpautop' );
-
-

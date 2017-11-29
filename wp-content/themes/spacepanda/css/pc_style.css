@@ -1,0 +1,411 @@
+@charset "utf-8";
+
+@media screen and (min-width:769px) {/*for PC*/
+  .pc-none {
+    display:none;
+  }
+  body{
+    min-height:550px;
+    font-size: 16px;
+    line-height:1.6;
+  }
+  /*seki追記*/
+  .archives {
+    margin :30px auto;
+    width:80%;
+    min-height:30em;
+  }
+  .archives h2 {
+    font-size:24px;
+
+  }
+  .archives p {
+    margin :5px 10px 20px;
+  }
+
+  .single-art {
+    min-height:500px;
+  }
+
+  .single-art p {
+    fon-size: 16px;
+  }
+
+  .archives a {
+    text-decolation:underline;
+  }
+  .archives article {
+    padding-bottom:10px;
+    margin-bottom:10px;
+    border-bottom: 1px solid #E5E5DC;
+  }
+
+  .archives time {
+    display: inline-block;
+    padding: 1px 2px;
+    border: 1px solid #E5E5DC;
+  }
+  .top-info {
+    text-align:center;
+
+  }
+  .top-info li{
+    margin-bottom: 1em;:
+  }
+
+  .top-info li a {
+    color:#fff;
+
+  }
+  .container{
+    width:100%;
+  }
+  header {
+    width:100%;
+    height:60px;
+    background:#fff;
+  }
+
+  .header_contents {
+    width: 1140px;
+    margin:0 auto;
+    height:60px;
+  }
+  .header_inner {
+    width:1100px;
+    margin:0 auto;
+    background:#fff;
+  }
+  .header_logo {
+    float:left;
+  }
+  .header_logo img {
+    width: 166px;
+    padding: 16px 0 0 6px;
+    display:block;
+  }
+  .header_logo img a {
+    display:block;
+  }
+
+
+
+  .gnav {
+    float:right;
+    margin-left:20px;
+    height:60px;
+  }
+  .gnav li {
+    width:100px;
+    height:55px;
+    float:left;
+    text-align:center;
+    font-size:16px;
+    font-weight:700;
+    line-height:60px;
+  }
+  .gnav li a{
+    color: #333;
+    display: block;
+    width: 100%;
+  }
+  .gnav li a:hover {
+    color:#fff;
+    background:#333;
+    height:60px;
+  }
+
+
+
+  .wrap {
+    width:100%;
+    margin:0 auto;
+  }
+
+  .wrap .top_contents {
+    width: 1140px;
+    margin: 0 auto;
+  }
+
+  .wrap .top_image {
+    height:409px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -160px;
+  }
+
+  .wrap .about_inbound {
+    /*height:440px;*/
+    background-color: #FCF9F1;
+    text-align: center;
+  }
+
+  .wrap .about_tvshow {
+    /*height:440px;*/
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .wrap .news_list {
+    /*height:440px;*/
+    background-color: #FCF9F1;
+    text-align: center;
+  }
+
+  .wrap .content_title {
+    font-size:32px;
+    font-weight: bold;
+    text-align: center;
+    height: 120px;
+    line-height: 120px;
+    letter-spacing: 4px;
+  }
+
+  .wrap .content_title .glyphicon {
+    vertical-align: text-bottom;
+  }
+
+  .wrap .line_content {
+    width: 170px;
+    border-bottom: 1px solid #333333;
+    height: 1px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .wrap .content_description {
+    font-size:16px;
+    text-align: center;
+  }
+
+  .wrap .content_box {
+    border: 1px solid #333;
+    max-width: 600px;
+    height: auto;
+    margin: 30px auto auto;
+    padding: 16px;
+  }
+
+  .wrap .detail_button {
+    width: 170px;
+    height: 60px;
+    border-radius: 5px;
+    line-height: 60px;
+    margin: 42px auto;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .wrap .about_inbound .detail_button {
+		background-color: #93C6E9;
+	}
+
+	.wrap .about_tvshow .detail_button {
+		background-color: #E9C693;
+	}
+
+	.wrap .news_list .detail_button {
+    background-color: #EBA88E;
+  }
+
+  .wrap .news_list .content_box {
+		text-align: left;
+	}
+
+
+
+
+
+
+
+
+  .contents_area.index {
+    width: 1024px;
+    margin: 0 auto;
+    position:relative;
+    min-height:555px;
+    height:663px;
+  }
+
+  .top_logo {
+    position: absolute;
+    top: 61%;
+    left: 52%;
+    margin-left: -9%;
+    width:14%;
+  }
+  .contents_area h2{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-weight:400;
+    text-align: center;
+    font-size: 40px !important;
+  }
+  .front-page .wrap {
+    background:none;
+  }
+  .front-page .contents_area {
+    background:none;
+  }
+
+  .top-news {
+    width:100%;
+  }
+  .top-news ul {
+    padding:40px;
+  }
+  .top-news ul li a{
+    color:#000;
+    text-shadow:0 1px 0 rgba(225,225,225,.5);
+  }
+  .home footer{
+  }
+  footer{
+    background:#333;
+    color:#fff;
+    width:100%;
+    text-align:center;
+    height:250px;
+  }
+  footer p {
+    line-height:80px;
+    font-size:12px;
+    color:#fff;
+  }
+  /*下層　共通*/
+  .page {
+    background:#fff;
+  }
+  .page .contents_area {
+    width:80%;
+    margin:0 auto;
+    padding:40px 0 100px;
+  }
+  .h1-outer {
+    width:100%;
+    background:#E5E5DC;
+    font-size:25px;
+    padding:20px 0;
+  }
+
+  .h1-outer .wrap {
+    width:80%;
+    color:#000;
+  }
+
+  /*ABOUT*/
+  .page-h1{
+    text-align:left;
+    font-weight: bold;
+  }
+  table {
+    width:100%;
+  }
+  table th {
+    width:200px;
+    text-align:left;
+    font-weight:400;
+    padding:20px 0;
+  }
+  table td {
+    padding:20px 0;
+  }
+  .abt-tbl {
+    max-width:80%;
+    margin:0 auto;
+  }
+  .abt-tbl th,.abt-tbl td  {
+    border-bottom:1px solid #ccc;
+  }
+
+  /*WORKS*/
+
+  .h2-outer {
+    background:#778899;
+  }
+  .cat {
+    text-align:center;
+    width:150px;
+  }
+  .cat-tv {
+    background:#e9967a;
+    color:#fff;
+  }
+  .cat-cm {
+    background:#b8860b;
+    color:#fff;
+  }
+  .cat-cin {
+    background:#778899;
+    color:#fff;
+  }
+  .cat-pv {
+    background:#bed5db;
+    color:#fff;
+  }
+  /*NEWS*/
+  .news-contents .txt {
+    margin-bottom:20px;
+  }
+  .news-contents a {
+    color:#ff7f50;
+  }
+  /*ACCESS*/
+  .acc-contents {
+    padding:40px 0!important;
+  }
+  .h1-acc {
+    text-align:cetner;
+  }
+  .tel:before {
+    content: "\f095";
+  }
+  .acc-list {
+    text-align:center;
+  }
+  /*CONTACT*/
+
+  .require:after {
+    z-index: 1;
+    position: absolute;
+    top: 28px;
+    left: 29px;
+    margin: auto;
+    content: '*';
+    color: #d80000;
+  }
+  .contact-txt {
+    text-align:center;
+    margin-bottom:40px;
+  }
+  .contact_col {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom:40px;
+  }
+  .require .contact_input {
+    padding-left: 42px;
+  }
+  .contact_input {
+    padding: 28px;
+    width: 100%;
+    background-color: #f4f4f4;
+    border: none;
+    color: #252525;
+    line-height: 1.8;
+  }
+  .submit-btn {
+    border:none;
+    background:none;
+    width: 300px;
+    height: 70px;
+    background:#5f9ea0;
+    font-size:24px;
+    color:#fff;
+    margin:0 auto;
+    display:block;
+  }
+}

@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header(); ?>
   <div class="h1-outer">
     <div class="wrap">
       <h1 class="page-h1">
@@ -7,7 +7,7 @@
         <?php echo get_cat_name($cat->term_id); ?>
       </h1>
     </div>
-  </div>
+  </div>
   <section class="archives">
     <main class="contents_area clearfix">
       <?php if(have_posts()): while(have_posts()):the_post(); ?>
@@ -22,5 +22,5 @@
         </article>
       <?php endwhile; endif; ?>
     </main>
-  </section>
-  <?php get_footer();?>
+  </section>
+  <?php get_footer();?>
