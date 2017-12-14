@@ -9,12 +9,4 @@
 <p style="font-size:16px;text-align:center;">お探しのページは移動したか、削除された可能性がございます。上部メニューより再度目的のページをお探し下さい。</p>
 </div>
 
-
-
-
-
-
-
 <?php get_footer();?>
-
-

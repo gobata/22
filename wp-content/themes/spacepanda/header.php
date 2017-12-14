@@ -4,6 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><?php wp_title(''); ?> | <?php bloginfo('name');?></title>
 
+<meta name="robots" content="noindex" />
+<meta name="robots" content="noindex,nofollow,noarchive" />
+
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -24,17 +27,6 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
-
-<script>
-$(function(){
-    $('.wrap').stickyStack({
-        containerElement: '.wrap',
-        stackingElement: 'section',
-        boxShadow: '0 -3px 20px rgba(0, 0, 0, 0.25)'
-    });
-})
-</script>
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -46,30 +38,69 @@ $(function(){
           <img src="<?php echo get_template_directory_uri(); ?>/images/parts/header_logo.png" alt="spacepanda22">
         </a>
       </h1>
-      <nav class="sp-none">
-        <?php wp_nav_menu(
-          array(
+
+      <?php if ( is_home() || is_front_page() ) : ?>
+        <!-- <nav class="sp-none">
+          <?php wp_nav_menu(
+            array(
+              'container' => false ,
+              'items_wrap' => '<ul class="gnav clearfix">%3$s</ul>',
+              'theme_location'=> 'header_menu'
+            )
+          ); ?>
+        </nav> -->
+      <?php endif; ?>
+
+
+
+      <!-- <?php if (is_page('inbound') || is_parent_slug() === 'inbound') : ?>
+        <nav id="inbound-gnav">
+          <?php wp_nav_menu( array(
             'container' => false ,
-            'items_wrap' => '<ul class="gnav clearfix">%3$s</ul>'
-          )
-        ); ?>
-      </nav>
+            'items_wrap' => '<ul class="gnav clearfix">%3$s</ul>',
+            'theme_location'=>'inbound_menu'
+          ) ); ?>
+        </nav>
+      <?php endif; ?> -->
     </div>
-    <!-- スマホ用 -->
+    <!-- スマホ用メニュー -->
     <div class="pure-container pc-none" data-effect="pure-effect-scaleRotate">
       <input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left"/>
       <label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left">
         <span class="pure-toggle-icon"></span>
       </label>
 
-      <nav class="pure-drawer" data-position="left">
-        <?php wp_nav_menu(
-          array(
+      <?php if ( is_home() || is_front_page() ) : ?>
+        <nav class="pure-drawer" data-position="left">
+          <?php wp_nav_menu(
+            array(
+              'container' => false ,
+              'items_wrap' => '<ul>%3$s</ul>'
+            )
+          ); ?>
+        </nav>
+      <?php endif; ?>
+
+
+      <?php if (is_page('tokyo') || is_parent_slug() === 'tokyo') : ?>
+        <nav id="tokyo-gnav" class="pure-drawer" data-position="left">
+          <?php wp_nav_menu( array(
             'container' => false ,
-            'items_wrap' => '<ul>%3$s</ul>'
-          )
-        ); ?>
-      </nav>
+            'items_wrap' => '<ul class="gnav clearfix">%3$s</ul>',
+            'theme_location'=>'tokyo_menu'
+          ) ); ?>
+        </nav>
+      <?php endif; ?>
+
+      <?php if (is_page('fukuoka') || is_parent_slug() === 'fukuoka') : ?>
+        <nav id="fukuoka-gnav" class="pure-drawer" data-position="left">
+          <?php wp_nav_menu( array(
+            'container' => false ,
+            'items_wrap' => '<ul class="gnav clearfix">%3$s</ul>',
+            'theme_location'=>'fukuoka_menu'
+          ) ); ?>
+        </nav>
+      <?php endif; ?>
     </div>
 
 

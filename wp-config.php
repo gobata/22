@@ -54,6 +54,17 @@ define('DB_COLLATE', '');
 define ('WP_SITEURL', 'http://localhost:8888/');
 define ('WP_HOME', 'http://localhost:8888/');
 
+
+// ** STG用設定 ** //
+// define('DB_NAME', 'LAA0791881-stgsp22');//STG用データベース
+// define('DB_USER', 'LAA0791881');
+// define('DB_PASSWORD', 'dtlj3DWf');
+// define('DB_HOST', 'mysql114.phy.lolipop.lan');
+// define('DB_CHARSET', 'utf8');
+// define('DB_COLLATE', '');
+// define ('WP_SITEURL', 'http://staging.space-panda22.com/');
+// define ('WP_HOME', 'http://staging.space-panda22.com/');
+
 /**#@+
  * 認証用ユニークキー
  *

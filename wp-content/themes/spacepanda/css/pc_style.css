@@ -63,13 +63,14 @@
   header {
     width:100%;
     height:60px;
-    background:#fff;
+    background:#FCF9F1;
+
   }
 
   .header_contents {
-    width: 1140px;
     margin:0 auto;
     height:60px;
+    margin-left: 15px;
   }
   .header_inner {
     width:1100px;
@@ -87,8 +88,6 @@
   .header_logo img a {
     display:block;
   }
-
-
 
   .gnav {
     float:right;
@@ -115,40 +114,304 @@
     height:60px;
   }
 
-
-
   .wrap {
     width:100%;
     margin:0 auto;
   }
 
-  .wrap .top_contents {
-    width: 1140px;
+  .wrap .main {
+    width: 100%;
+  }
+
+  .wrap .top_header {
+    position: relative;
+  }
+
+  .wrap .top_header .spacepanda_logo2 {
+    position: absolute;
+    top: 0;
+    width: 400px;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .wrap .top_header .company_name {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 0;
+    bottom: 0;
+    left: 145px;
+    margin: auto 0;
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+
+  .wrap .top_header .corporate_philosophy {
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 16px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .wrap .top_header .corporate_philosophy .philosophy {
+    color: #fff;
+  }
+
+  .wrap .top_header .corporate_philosophy .main_philosophy {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+
+  .wrap .top_header .corporate_philosophy .sub_philosophy {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .wrap .main {
+    background-color: #FCF9F1;
+  }
+
+  .wrap .main_contents {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+  }
+
+  .wrap .main .our_works {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FCF9F1;
+    padding-top:30px;
+  }
+
+  .wrap .main_contents a {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .wrap .main_contents .department img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .wrap .main_contents .department {
+    display: block;
+    width:350px;
+    height:300px;
+    border-radius: 5px;
+  }
+
+  .wrap .main_contents .department .department_name {
+    font-size: 28px;
+    text-align: left;
+    padding: 16px 0;
+  }
+
+  .wrap .main_contents .department .department_description {
+    font-size: 18px;
+    text-align: center;
+  }
+
+
+
+  /* office */
+  #office_contents {
+    display: flex;
+  }
+  #office_contents .top_office_header {
+    width:80%;
+  }
+
+  #office_contents .top_office_header .header_image {
+    position: relative;
+  }
+
+  #office_contents .top_office_header img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  #office_contents .top_office_header .office_name {
+    position: absolute;
+    width: 300px;
+    height: 35px;
+    line-height: 35px;
+    top: 0;
+    bottom: 0;
+    right: 30px;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+
+
+  }
+
+  #office_contents .top_office_header .top_image {
+
+  }
+
+  #office_contents .sub_menu {
+    width:20%;
+    padding: 20px;
+
+  }
+
+  #office_contents .sub_menu ul {
+    font-size: 18px;
+  }
+
+  #office_contents .sub_menu li {
+    margin-bottom: 20px;
+    border-bottom:1px solid #aaa;
+  }
+
+  #office_contents .sub_menu li a {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+  }
+  #office_contents .sub_menu li a:hover {
+    color: #888;
+  }
+
+  #office_contents .sub_menu li a span {
+    font-size: 10px;
+    color: #1C9ACA;
+    display: block;
+  }
+
+
+  #office_contents .top_office_header .office_main .content_title {
+    font-size: 20px;
+    height: 70px;
+    line-height: 70px;
+  }
+
+  #office_contents .top_office_header .office_main .content_box {
+    margin: 10px 30px 20px 30px;
+
+  }
+
+
+
+  #office_contents .top_office_header .office_main .office_main_contents {
+    padding:15px;
+  }
+
+  #office_contents .top_office_header .office_main .main .main_contents {
+    padding:10px;
+  }
+
+  #office_contents .top_office_header .office_main .main .main_contents .department {
+    width:250px;
+    height: auto;
+  }
+
+  #office_contents .top_office_header .office_main .office_link_list {
+    display: flex;
+    padding:40px 5px;
+  }
+
+  #office_contents .top_office_header .office_main .office_link_list a {
+    display: block;
+    margin: 0 10px;
+  }
+
+
+  #office_contents .content_box .works_title {
+    font-weight: bold;
+  }
+
+  #office_contents .content_box .works_list li {
+    padding-left: 16px;
+  }
+
+  #office_contents .content_box .recruit_list .recruit_title {
+    max-width: 80%;
     margin: 0 auto;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top:30px;
+  }
+
+  #office_contents .content_box .recruit_list .recruit_description {
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+
+  #office_contents .content_box .recruit_list a {
+    display: block;
+    width: 200px;
+    height: 55px;
+    background-color: #5F9EA3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 55px;
+    margin: 20px auto;
+  }
+
+
+
+
+
+
+  .wrap .top_contents {
+    /*width: 1140px;*/
+    margin: 0 auto;
+    padding-bottom: 60px;
   }
 
   .wrap .top_image {
-    height:409px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: -160px;
+    position: relative;
+  }
+
+  .wrap .top_image_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.2);
+  }
+
+
+
+  .content_bgcolor {
+    background-color: #FCF9F1;
+  }
+
+  .wrap.inbound .contact_input {
+    background-color: #fff;
   }
 
   .wrap .about_inbound {
-    /*height:440px;*/
-    background-color: #FCF9F1;
     text-align: center;
   }
 
   .wrap .about_tvshow {
-    /*height:440px;*/
-    background-color: #fff;
     text-align: center;
   }
 
   .wrap .news_list {
-    /*height:440px;*/
-    background-color: #FCF9F1;
     text-align: center;
   }
 
@@ -174,7 +437,7 @@
   }
 
   .wrap .content_description {
-    font-size:16px;
+    font-size:18px;
     text-align: center;
   }
 
@@ -213,6 +476,10 @@
   .wrap .news_list .content_box {
 		text-align: left;
 	}
+
+
+
+
 
 
 
@@ -261,19 +528,41 @@
     text-shadow:0 1px 0 rgba(225,225,225,.5);
   }
   .home footer{
+
   }
   footer{
     background:#333;
     color:#fff;
     width:100%;
     text-align:center;
-    height:250px;
   }
   footer p {
     line-height:80px;
     font-size:12px;
     color:#fff;
   }
+
+  footer .footer_site_links {
+    margin: 30px;
+    display: inline-block;
+  }
+
+  footer .footer_site_links ul {
+
+  }
+
+  footer .footer_site_links li {
+    display: inline-block;
+    margin: 0 16px;
+  }
+
+  footer .footer_site_links li a {
+    color:#fff;
+  }
+
+
+
+
   /*下層　共通*/
   .page {
     background:#fff;

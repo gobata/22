@@ -34,6 +34,9 @@ body {
   position: relative;
   height: 100%;
   -webkit-overflow-scrolling: touch;
+  width: 50px;
+    float: right;
+    margin-right: 15px;
 }
 
 /************
@@ -201,12 +204,12 @@ body {
   width: 100%;
 }
 .pure-drawer ul {
-    margin-top: 20px;
-    padding-left: 40px;
-    font-size: 20px;
-    line-height: 2.5;
-
+  margin-top: 50px;
+  padding-left: 40px;
+  font-size: 20px;
+  line-height: 2.5;
 }
+
 @media only screen and (min-width: 40.063em) {
   .pure-drawer {
     width: 300px;

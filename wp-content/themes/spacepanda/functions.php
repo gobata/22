@@ -47,6 +47,28 @@ if (!current_user_can('level_10')) { //level10（編集者）以下のユーザ�
 }
 
 
+register_nav_menus( array(
+    'header_menu' => 'ヘッダーに表示させるメニュー',
+    'footer_menu' => 'フッターに表示させるメニュー',
+    'tokyo_menu' => '東京オフィス用メニュー',
+    'tokyo_footer_menu' => '東京オフィス用フッターメニュー',
+    'fukuoka_menu' => '福岡オフィス用メニュー',
+    'fukuoka_footer_menu' => '福岡オフィス用フッターメニュー',
+    'inbound_menu' => 'インバウンドページ用メニュー',
+    'inbound_footer_menu' => 'インバウンドページ用フッターメニュー'
+) );
+
+
+
+function is_parent_slug() {
+  global $post;
+  if ($post->post_parent) {
+    $post_data = get_post($post->post_parent);
+    return $post_data->post_name;
+  }
+}
+
+
 //ページネーション
 function responsive_pagination($pages = '', $range = 4){
   $showitems = ($range * 2)+1;
