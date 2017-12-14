@@ -34,7 +34,7 @@ get_header(); ?>
             <?php if (is_page('fukuoka/company')) : ?>会社概要
             <?php elseif(is_page('fukuoka/news')) : ?>ニュース
             <?php elseif(is_page('fukuoka/works')) : ?>制作実績
-            <?php elseif(is_page('fukuoka/messages')) : ?>社員からのメッセージ
+            <?php elseif(is_page('fukuoka/message')) : ?>社員からのメッセージ
             <?php elseif(is_page('fukuoka/recruit')) : ?>採用情報
             <?php elseif(is_page('fukuoka/contact')) : ?>お問合わせ
             <?php endif; ?>

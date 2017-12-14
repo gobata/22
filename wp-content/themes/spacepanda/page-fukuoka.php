@@ -41,7 +41,7 @@ get_header(); ?>
           </div>
         </div>
 
-        <div class='office_link_list office_main_contents'>
+        <!-- <div class='office_link_list office_main_contents'>
           <a href='<?php echo home_url(); ?>/fukuoka/company'>
             <div class='office_link_contents'>
               <img src='<?php echo get_template_directory_uri(); ?>/images/works/tokyo.jpg'/>
@@ -66,7 +66,7 @@ get_header(); ?>
               <div class=''>採用情報</div>
             </div>
           </a>
-        </div>
+        </div> -->
 
         <div class='main'>
           <div class='content_title'>

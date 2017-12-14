@@ -64,6 +64,7 @@
       <?php endif; ?> -->
     </div>
     <!-- スマホ用メニュー -->
+
     <div class="pure-container pc-none" data-effect="pure-effect-scaleRotate">
       <input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left"/>
       <label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left">
@@ -75,7 +76,8 @@
           <?php wp_nav_menu(
             array(
               'container' => false ,
-              'items_wrap' => '<ul>%3$s</ul>'
+              'items_wrap' => '<ul>%3$s</ul>',
+              'theme_location'=>'header_menu'
             )
           ); ?>
         </nav>

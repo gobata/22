@@ -16,7 +16,7 @@
       <span>福岡オフィス</span>
     </a>
   </li>
-  <li>
+  <!-- <li>
     <a href='<?php echo home_url(); ?>/fukuoka/company'>
       About
       <span>会社概要</span>
@@ -42,5 +42,5 @@
   <li>
     <a href='<?php echo home_url(); ?>/fukuoka/contact'>Contact
     <span>お問合わせ</span></a>
-  </li>
+  </li> -->
 </ul>

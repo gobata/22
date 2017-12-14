@@ -558,8 +558,28 @@ body{
 		margin: 20px auto;
 	}
 
+	table.news {
 
+  }
 
+	table.news td {
+		padding:10px;
+
+  }
+
+	.onair {
+    border: 1px solid #333;
+    border-radius: 2px;
+    padding: 0 3px;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+		margin: 0 5px;
+  }
+  .onair::after {
+    content:"ｵﾝｴｱ";
+  }
 
 
 

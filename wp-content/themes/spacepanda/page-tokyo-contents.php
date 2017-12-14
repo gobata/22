@@ -34,7 +34,7 @@ get_header(); ?>
             <?php if (is_page('tokyo/company')) : ?>会社概要
             <?php elseif(is_page('tokyo/news')) : ?>ニュース
             <?php elseif(is_page('tokyo/works')) : ?>制作実績
-            <?php elseif(is_page('tokyo/messages')) : ?>社員からのメッセージ
+            <?php elseif(is_page('tokyo/message')) : ?>社員からのメッセージ
             <?php elseif(is_page('tokyo/recruit')) : ?>採用情報
             <?php elseif(is_page('tokyo/contact')) : ?>お問合わせ
             <?php endif; ?>
