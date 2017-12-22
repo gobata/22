@@ -36,7 +36,7 @@ get_header(); ?>
             <span class="glyphicon glyphicon-list"></span>
             ヘッドライン
           </div>
-          <div class='content_box' style='max-width:initial;'>
+          <div class='content_box with_border' style='max-width:initial;'>
             <?php echo get_post( 114 )->post_content; ?>
           </div>
         </div>
@@ -45,7 +45,7 @@ get_header(); ?>
           <a href='<?php echo home_url(); ?>/tokyo/company'>
             <div class='office_link_contents'>
               <img src='<?php echo get_template_directory_uri(); ?>/images/works/tokyo.jpg'/>
-              <div class=''>会社概要</div>
+              <div class=''>会社案内</div>
             </div>
           </a>
           <a href='<?php echo home_url(); ?>/tokyo/works'>
@@ -57,7 +57,7 @@ get_header(); ?>
           <a href='<?php echo home_url(); ?>/tokyo/message'>
             <div class='office_link_contents'>
               <img src='<?php echo get_template_directory_uri(); ?>/images/message.jpg'/>
-              <div class=''>社員からのメッセージ</div>
+              <div class=''>仕事紹介</div>
             </div>
           </a>
           <a href='<?php echo home_url(); ?>/tokyo/recruit'>
@@ -71,9 +71,8 @@ get_header(); ?>
         <div class='main'>
           <div class='content_title'>
             <span class="glyphicon glyphicon-star-empty"></span>
-            SpacePandaの事業
+            SpacePand22の事業
           </div>
-          <div class='line_content'></div>
           <div class='main_contents'>
             <a href='<?php echo home_url(); ?>/tokyo/'>
               <div class='inbound_department department'>

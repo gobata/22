@@ -19,7 +19,7 @@
   <!-- <li>
     <a href='<?php echo home_url(); ?>/fukuoka/company'>
       About
-      <span>会社概要</span>
+      <span>会社案内</span>
     </a>
   </li>
   <li>

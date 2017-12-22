@@ -322,11 +322,9 @@
   }
 
   #office_contents .top_office_header .office_main .content_box {
-    margin: 10px 30px 20px 30px;
+    margin: 0px 30px 20px 30px;
 
   }
-
-
 
   #office_contents .top_office_header .office_main .office_main_contents {
     padding:15px;
@@ -360,17 +358,22 @@
     padding-left: 16px;
   }
 
+  #office_contents .content_box .recruit_list .recruit_box {
+    border:1px solid #333;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
   #office_contents .content_box .recruit_list .recruit_title {
-    max-width: 80%;
+    /* max-width: 80%; */
     margin: 0 auto;
     font-weight: bold;
-    font-size: 18px;
-    margin-top:30px;
+    font-size: 20px;
   }
 
   #office_contents .content_box .recruit_list .recruit_description {
-    max-width: 80%;
-    margin: 0 auto;
+    /* max-width: 80%; */
+    margin: 10px auto;
     font-size: 18px;
   }
 
@@ -390,7 +393,55 @@
   }
 
 
+  .company_contents{
+    display: none;
+  }
 
+  .company_tab {
+    border-bottom:1px solid #ddd;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .company_tab .company_menu_button {
+    position: absolute;
+    top: 1px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    padding: 10px 10px;
+    width: 100px;
+    border-bottom: 0;
+    background-color: transparent;
+  }
+
+  .company_tab .company_menu_button.is-active {
+    font-weight:bold;
+    background-color: #fff;
+  }
+
+  .company_tab .company_menu_button.about_company {
+    left: 0;
+  }
+  .company_tab .company_menu_button.access_company {
+    left: 110px;
+  }
+  .company_tab .company_menu_button.greeting_company {
+    left: 220px;
+  }
+
+  .company_contents .greeting_box {
+    border: 1px solid #333;
+    margin: 30px;
+    padding:30px;
+  }
+
+
+
+  button.company_menu_button:focus {
+    outline: 0;
+  }
 
 
 
@@ -486,12 +537,16 @@
   }
 
   .wrap .content_box {
-    border: 1px solid #333;
+    /* border: 1px solid #ddd; */
     max-width: 800px;
     height: auto;
     margin: 30px auto auto;
-    padding: 30px 63px;
+    padding: 10px 30px 30px 30px;;
   }
+
+  .content_box.with_border {
+		border:1px solid #333;
+	}
 
   .wrap .detail_button {
     width: 170px;
@@ -612,9 +667,9 @@
     background:#fff;
   }
   .page .contents_area {
-    width:80%;
+    /* width:80%; */
     margin:0 auto;
-    padding:40px 0 100px;
+    padding:30px;
   }
   .h1-outer {
     width:100%;
@@ -646,12 +701,21 @@
     padding:20px 0;
   }
   .abt-tbl {
-    max-width:80%;
+    /* max-width:80%; */
     margin:0 auto;
   }
   .abt-tbl th,.abt-tbl td  {
-    border-bottom:1px solid #ccc;
+    border-bottom:1px solid #eee;
   }
+
+  table tr.bangumi {
+
+	}
+
+	table tr.bangumi th {
+		width:100px;
+    font-weight: bold;
+	}
 
   /*WORKS*/
 

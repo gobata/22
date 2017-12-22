@@ -22,8 +22,9 @@ get_header(); ?>
 
     <div class='corporate_philosophy'>
       <span class='main_philosophy philosophy'>
-        "Now, on to the world's stage"<br/>
-        - いよいよ世界戦 -
+        <span>Now, on to the world's stage</span>
+        <br/>
+        <span>いよいよ世界戦</span>
       </span>
       <br/>
       <span class='sub_philosophy philosophy'>

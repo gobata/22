@@ -4,26 +4,24 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><?php wp_title(''); ?> | <?php bloginfo('name');?></title>
 
-<meta name="robots" content="noindex" />
-<meta name="robots" content="noindex,nofollow,noarchive" />
-
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <link href="http://stest-stest.sakura.ne.jp/panda/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 <?php get_stylesheet_uri(); ?>
- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pure-drawer.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pure-drawer.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/sublimeSlideshow.css" media="all" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/pc_style.css">
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.sublimeSlideshow.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/drawer.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.stickystack.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 

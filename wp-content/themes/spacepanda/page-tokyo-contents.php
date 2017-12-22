@@ -31,36 +31,49 @@ get_header(); ?>
 
           <div class='content_title'>
             <span class="glyphicon glyphicon-list"></span>
-            <?php if (is_page('tokyo/company')) : ?>会社概要
+            <?php if (is_page('tokyo/company')) : ?>会社案内
             <?php elseif(is_page('tokyo/news')) : ?>ニュース
             <?php elseif(is_page('tokyo/works')) : ?>制作実績
-            <?php elseif(is_page('tokyo/message')) : ?>社員からのメッセージ
+            <?php elseif(is_page('tokyo/message')) : ?>仕事紹介
             <?php elseif(is_page('tokyo/recruit')) : ?>採用情報
             <?php elseif(is_page('tokyo/contact')) : ?>お問合わせ
             <?php endif; ?>
           </div>
 
 
-          <div class='content_box' style='max-width:initial;'>
+
             <?php if (is_page('tokyo/news')) : ?>
-              <?php echo get_post( 114 )->post_content; ?>
+              <div class='content_box with_border' style='max-width:initial;'>
+                <!-- ニュースの投稿を読み込み -->
+                <?php echo get_post( 114 )->post_content; ?>
+              </div>
             <?php else : ?>
-              <?php if(have_posts()): while(have_posts()): the_post(); ?>
-              <?php the_content(); ?>
-              <?php endwhile; endif; ?>
+              <div class='content_box' style='max-width:initial;'>
+                <?php if (is_page('tokyo/company')) : ?>
+                  <div class="company_tab">
+                    <button class="company_menu_button about_company">会社概要</button>
+                    <button class="company_menu_button access_company">アクセス</button>
+                    <button class="company_menu_button greeting_company">ご挨拶</button>
+                  </div>
+                <?php endif; ?>
+
+                <!-- 固定ページ読み込み -->
+                <?php if(have_posts()): while(have_posts()): the_post(); ?>
+                  <?php the_content(); ?>
+                <?php endwhile; endif; ?>
+              </div>
             <?php endif; ?>
 
 
-          </div>
-
 
         </div>
+
 
         <div class='office_link_list office_main_contents'>
           <a href='<?php echo home_url(); ?>/tokyo/company'>
             <div class='office_link_contents'>
               <img src='<?php echo get_template_directory_uri(); ?>/images/works/tokyo.jpg'/>
-              <div class=''>会社概要</div>
+              <div class=''>会社案内</div>
             </div>
           </a>
           <a href='<?php echo home_url(); ?>/tokyo/works'>
@@ -72,7 +85,7 @@ get_header(); ?>
           <a href='<?php echo home_url(); ?>/tokyo/message'>
             <div class='office_link_contents'>
               <img src='<?php echo get_template_directory_uri(); ?>/images/message.jpg'/>
-              <div class=''>社員からのメッセージ</div>
+              <div class=''>仕事紹介</div>
             </div>
           </a>
           <a href='<?php echo home_url(); ?>/tokyo/recruit'>
@@ -86,9 +99,8 @@ get_header(); ?>
         <div class='main'>
           <div class='content_title'>
             <span class="glyphicon glyphicon-star-empty"></span>
-            SpacePandaの事業
+            SpacePanda22の事業
           </div>
-          <div class='line_content'></div>
           <div class='main_contents'>
             <a href='<?php echo home_url(); ?>/tokyo/'>
               <div class='inbound_department department'>

@@ -39,6 +39,7 @@
 // define('DB_COLLATE', '');
 
 
+
 //ローカル用のDB接続先
 define('DB_NAME', 'LAA0791881-zspq81');
 /** MySQL のユーザー名 */

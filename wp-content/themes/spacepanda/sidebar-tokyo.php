@@ -19,7 +19,7 @@
   <li>
     <a href='<?php echo home_url(); ?>/tokyo/company'>
       About
-      <span>会社概要</span>
+      <span>会社案内</span>
     </a>
   </li>
   <li>
@@ -29,7 +29,7 @@
   </li>
   <li>
     <a href='<?php echo home_url(); ?>/tokyo/message'>Message
-    <span>社員からのメッセージ</span></a>
+    <span>仕事紹介</span></a>
   </li>
   <li>
     <a href='<?php echo home_url(); ?>/tokyo/news'>News

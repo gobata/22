@@ -45,7 +45,7 @@ get_header(); ?>
           <a href='<?php echo home_url(); ?>/fukuoka/company'>
             <div class='office_link_contents'>
               <img src='<?php echo get_template_directory_uri(); ?>/images/works/tokyo.jpg'/>
-              <div class=''>会社概要</div>
+              <div class=''>会社案内</div>
             </div>
           </a>
           <a href='<?php echo home_url(); ?>/fukuoka/works'>
@@ -57,7 +57,7 @@ get_header(); ?>
           <a href='<?php echo home_url(); ?>/fukuoka/message'>
             <div class='office_link_contents'>
               <img src='<?php echo get_template_directory_uri(); ?>/images/message.jpg'/>
-              <div class=''>社員からのメッセージ</div>
+              <div class=''>仕事紹介</div>
             </div>
           </a>
           <a href='<?php echo home_url(); ?>/fukuoka/recruit'>
@@ -71,9 +71,8 @@ get_header(); ?>
         <div class='main'>
           <div class='content_title'>
             <span class="glyphicon glyphicon-star-empty"></span>
-            SpacePandaの事業
+            SpacePanda22の事業
           </div>
-          <div class='line_content'></div>
           <div class='main_contents'>
             <a href='<?php echo home_url(); ?>/tokyo/'>
               <div class='inbound_department department'>
