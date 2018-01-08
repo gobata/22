@@ -14,4 +14,31 @@ $(function () {
       $('.company_contents').eq(index).show();
     });
   });
+
+  $('#inbound-title3').css("display", "none");
+
+  $('#inbound-title1')
+  .animate({left: '50px'},{duration: 1000})
+  .animate({left: '100px'},{duration: 3000});
+
+  $('#inbound-title2')
+  .animate({right: '50px'},{duration: 1000})
+  .animate({right: '120px'},{duration: 3000,
+           complete: function(){
+             $('#inbound-title3').fadeIn();
+           }});
+
+
+
+
+
+
+  // $("#inbound-title1").animate(
+  //   {"left": "-100px",
+  //   complete: function() {
+  //     $("#inbound-title1").animate(
+  //       {"left": "100px"}, 3000);
+  //     }
+  // });
+
 });

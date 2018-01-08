@@ -15,20 +15,13 @@ get_header(); ?>
 
 
 <div class="wrap">
-
   <div id='office_contents'>
-
     <div class='sub_menu'>
       <?php get_sidebar('fukuoka'); ?>
     </div>
-
     <div class='top_office_header'>
-
-
       <div class="office_main">
-
         <div class='office_main_contents'>
-
           <div class='content_title'>
             <span class="glyphicon glyphicon-list"></span>
             <?php if (is_page('fukuoka/company')) : ?>会社案内
@@ -40,7 +33,6 @@ get_header(); ?>
             <?php endif; ?>
           </div>
 
-
           <div class='content_box' style='max-width:initial;'>
             <?php if (is_page('fukuoka/news')) : ?>
               <?php echo get_post( 180 )->post_content; ?>
@@ -49,17 +41,13 @@ get_header(); ?>
               <?php the_content(); ?>
               <?php endwhile; endif; ?>
             <?php endif; ?>
-
-
           </div>
-
-
         </div>
 
         <div class='office_link_list office_main_contents'>
           <a href='<?php echo home_url(); ?>/fukuoka/company'>
             <div class='office_link_contents'>
-              <img src='<?php echo get_template_directory_uri(); ?>/images/works/tokyo.jpg'/>
+              <img src='<?php echo get_template_directory_uri(); ?>/images/works/company.jpg'/>
               <div class=''>会社案内</div>
             </div>
           </a>

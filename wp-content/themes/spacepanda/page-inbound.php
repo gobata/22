@@ -22,12 +22,14 @@ get_header(); ?>
 
     <div class='corporate_philosophy'>
       <span class='main_philosophy philosophy'>
-        <span>Now, on to the world's stage</span>
+        <span id='inbound-title1' class='inbound-title' style='left: -1000px; position: absolute;'>
+          Now, on to the world's stage
+        </span>
         <br/>
-        <span>いよいよ世界戦</span>
+        <span id='inbound-title2' class='inbound-title' style='right: -1000px; position: absolute;'>いよいよ世界戦</span>
       </span>
       <br/>
-      <span class='sub_philosophy philosophy'>
+      <span id='inbound-title3' class='inbound-title sub_philosophy philosophy' style='display:none;'>
         日本企業 × 映像コンテンツで国際競争力を勝ち取る
       </span>
     </div>

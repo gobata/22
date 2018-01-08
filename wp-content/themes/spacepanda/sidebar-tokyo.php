@@ -28,19 +28,38 @@
     <span>制作実績</span></a>
   </li>
   <li>
-    <a href='<?php echo home_url(); ?>/tokyo/message'>Message
+    <a href='<?php echo home_url(); ?>/tokyo/message'>
+      What's our job
     <span>仕事紹介</span></a>
   </li>
   <li>
-    <a href='<?php echo home_url(); ?>/tokyo/news'>News
+    <a href='<?php echo home_url(); ?>/tokyo/news'>
+      News
     <span>お知らせ</span></a>
   </li>
   <li>
-    <a href='<?php echo home_url(); ?>/tokyo/recruit'>Recruit
+    <a href='<?php echo home_url(); ?>/tokyo/recruit'>
+      Recruit
     <span>採用情報</span></a>
   </li>
   <li>
-    <a href='<?php echo home_url(); ?>/tokyo/contact'>Contact
+    <a href='<?php echo home_url(); ?>/tokyo/contact'>
+      Contact
     <span>お問合わせ</span></a>
+  </li>
+</ul>
+
+<ul style='margin-top:80px;'>
+  <li>
+    <a href='<?php echo home_url(); ?>/fukuoka/'>
+      Fukuoka Office
+      <span>福岡オフィス</span>
+    </a>
+  </li>
+  <li>
+    <a href='<?php echo home_url(); ?>/inbound/'>
+      Inbound
+      <span>インバウンド事業</span>
+    </a>
   </li>
 </ul>

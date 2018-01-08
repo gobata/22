@@ -44,3 +44,18 @@
     <span>お問合わせ</span></a>
   </li> -->
 </ul>
+
+<ul style='margin-top:80px;'>
+  <li>
+    <a href='<?php echo home_url(); ?>/tokyo/'>
+      Tokyo Office
+      <span>東京オフィス</span>
+    </a>
+  </li>
+  <li>
+    <a href='<?php echo home_url(); ?>/inbound'>
+      Inbound
+      <span>インバウンド事業</span>
+    </a>
+  </li>
+</ul>

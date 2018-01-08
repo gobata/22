@@ -44,7 +44,7 @@ get_header(); ?>
         <div class='office_link_list office_main_contents'>
           <a href='<?php echo home_url(); ?>/tokyo/company'>
             <div class='office_link_contents'>
-              <img src='<?php echo get_template_directory_uri(); ?>/images/works/tokyo.jpg'/>
+              <img src='<?php echo get_template_directory_uri(); ?>/images/works/company.jpg'/>
               <div class=''>会社案内</div>
             </div>
           </a>
