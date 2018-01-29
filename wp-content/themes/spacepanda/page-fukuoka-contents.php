@@ -35,7 +35,9 @@ get_header(); ?>
 
           <div class='content_box' style='max-width:initial;'>
             <?php if (is_page('fukuoka/news')) : ?>
-              <?php echo get_post( 180 )->post_content; ?>
+              <div class='content_box with_border' style='max-width:initial;'>
+                <?php echo get_post( 180 )->post_content; ?>
+              </div>
             <?php else : ?>
               <?php if(have_posts()): while(have_posts()): the_post(); ?>
               <?php the_content(); ?>
@@ -44,7 +46,7 @@ get_header(); ?>
           </div>
         </div>
 
-        <div class='office_link_list office_main_contents'>
+        <!-- <div class='office_link_list office_main_contents'>
           <a href='<?php echo home_url(); ?>/fukuoka/company'>
             <div class='office_link_contents'>
               <img src='<?php echo get_template_directory_uri(); ?>/images/works/company.jpg'/>
@@ -69,7 +71,7 @@ get_header(); ?>
               <div class=''>採用情報</div>
             </div>
           </a>
-        </div>
+        </div> -->
 
         <div class='main'>
           <div class='content_title'>

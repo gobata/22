@@ -36,7 +36,7 @@ get_header(); ?>
             <span class="glyphicon glyphicon-list"></span>
             ヘッドライン
           </div>
-          <div class='content_box' style='max-width:initial;'>
+          <div class='content_box with_border' style='max-width:initial;'>
             <?php echo get_post( 180 )->post_content; ?>
           </div>
         </div>

@@ -30,7 +30,7 @@
   <li>
     <a href='<?php echo home_url(); ?>/fukuoka/message'>Message
     <span>社員からのメッセージ</span></a>
-  </li>
+  </li> -->
   <li>
     <a href='<?php echo home_url(); ?>/fukuoka/news'>News
     <span>お知らせ</span></a>
@@ -42,7 +42,7 @@
   <li>
     <a href='<?php echo home_url(); ?>/fukuoka/contact'>Contact
     <span>お問合わせ</span></a>
-  </li> -->
+  </li>
 </ul>
 
 <ul style='margin-top:80px;'>
