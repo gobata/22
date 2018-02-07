@@ -195,7 +195,7 @@ get_header(); ?>
           <div class='movie-title'>
             【照明器具メーカーの商品紹介】（税抜）２６万円
           </div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/CHkzH4d8W9w?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe width="600" height="315" src="https://www.youtube.com/embed/CHkzH4d8W9w?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           <div class='movie-detail'>
             <table>
               <tr>
@@ -214,7 +214,7 @@ get_header(); ?>
           <div class='movie-title'>
             【外国人向け相撲体験教室のPR】（税抜）１６万円
           </div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/5UEoL4AfUSU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe width="600" height="315" src="https://www.youtube.com/embed/5UEoL4AfUSU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           <div class='movie-detail'>
             <table>
               <tr>
@@ -237,7 +237,7 @@ get_header(); ?>
           <div class='movie-title'>
             【飲食店のPR】（税抜）２１.５万円
           </div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/f8DfIeXBEb8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe width="600" height="315" src="https://www.youtube.com/embed/f8DfIeXBEb8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           <div class='movie-detail'>
             <table>
               <tr>
@@ -280,6 +280,23 @@ get_header(); ?>
       </div>
     </div>
   </div>
+
+  <div class='flow_contents' id='inqury'>
+    <h2 class='title'>
+      動画制作依頼に関するお問い合わせ
+    </h2>
+    <div class='contents'>
+      <div class='detail'>
+        株式会社スペースパンダ インバウンド動画制作部 担当 大保<br/>
+        【TEL】<a href="tel:0364354238">03-6435-4238</a><br/>
+        <!-- 【Mail】<a href="mailto:info@space-panda22.com" target='_blank'>info@space-panda22.com</a> -->
+      </div>
+    </div>
+  </div>
+
+  <?php if(have_posts()): while(have_posts()): the_post(); ?>
+    <?php the_content(); ?>
+  <?php endwhile; endif; ?>
 
 </div>
 </div>
