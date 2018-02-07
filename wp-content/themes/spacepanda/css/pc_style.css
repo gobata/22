@@ -134,9 +134,9 @@
 
 
   /* 仕事紹介 */
-	.message_contents {
+  .message_contents {
 
-	}
+  }
 
   .message_contents .about_title {
     font-size: 25px;
@@ -146,10 +146,10 @@
   }
 
   .message_contents .work_img {
-		height: 200px !important;
+    height: 200px !important;
     width: auto !important;
     display: flex;
-	}
+  }
 
   .message_contents .work_images {
     display: flex;
@@ -159,11 +159,11 @@
 
 
 
-	.message_contents .message_detail01 .work_img.work01 {
-		width: 200px !important;
+  .message_contents .message_detail01 .work_img.work01 {
+    width: 200px !important;
     display: inline-block;
     vertical-align: top;
-	}
+  }
 
   .message_contents .about_our_job {
     display: inline-block;
@@ -182,29 +182,29 @@
 
 
   /* 採用情報 */
-	.work-position span.wpcf7-list-item {
-		margin-right: 20px;
+  .work-position span.wpcf7-list-item {
+    margin-right: 20px;
     display: inline-block;
     vertical-align: top;
-	}
+  }
 
-	.work-position span input {
-		margin: 0;
+  .work-position span input {
+    margin: 0;
     display: inline-block;
     vertical-align: text-top;
-	}
+  }
 
   .is-new span.wpcf7-list-item {
-		margin-right: 20px;
+    margin-right: 20px;
     display: inline-block;
     vertical-align: top;
-	}
+  }
 
-	.is-new span input {
-		margin: 0;
+  .is-new span input {
+    margin: 0;
     display: inline-block;
     vertical-align: text-top;
-	}
+  }
 
 
   .wrap {
@@ -285,7 +285,7 @@
 
   .wrap .main_contents {
     display: flex;
-    padding: 60px;
+    padding: 15px 0 60px 0;
     justify-content: center;
   }
 
@@ -366,31 +366,31 @@
 
   }
 
-  #office_contents .sub_menu {
+  .sub_menu {
     width:20%;
     padding: 20px;
 
   }
 
-  #office_contents .sub_menu ul {
+  .sub_menu ul {
     font-size: 18px;
   }
 
-  #office_contents .sub_menu li {
+  .sub_menu li {
     margin-bottom: 20px;
     border-bottom:1px solid #aaa;
   }
 
-  #office_contents .sub_menu li a {
+  .sub_menu li a {
     width: 100%;
     display: block;
     text-decoration: none;
   }
-  #office_contents .sub_menu li a:hover {
+  .sub_menu li a:hover {
     color: #888;
   }
 
-  #office_contents .sub_menu li a span {
+  .sub_menu li a span {
     font-size: 10px;
     color: #1C9ACA;
     display: block;
@@ -520,6 +520,160 @@
     border:1px solid #333;
     padding-left: 15px;
   }
+
+  /* 動画企画制作工程 */
+  #product_flow_contents {
+    display: flex;
+    position: relative;
+  }
+  #product_flow_contents .submenu-box {
+    width: 221px;
+    height: 100%;
+  }
+
+
+
+  #product_flow_contents .submenu-box .product_flow_sub_menu {
+    position: absolute;
+    width: auto;
+  }
+
+  #product_flow_contents .product_flow_contents {
+    width: 80%;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents {
+    margin-bottom: 60px;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents .title {
+    font-size:20px;
+    font-weight: bold;
+    border-left: 5px solid #777;
+    padding-left: 10px;
+    margin:20px 0;
+    margin-left: 20px;
+
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents .contents {
+    margin: 10px 35px;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents h2.title {
+
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents {
+
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents h3 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 20px 0;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents div.detail {
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents div.box {
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents div.images {
+    text-align: center;
+    margin: 30px 0;
+  }
+  #product_flow_contents .product_flow_contents .flow_contents div.contents div.images img {
+    width: 30%;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents .step {
+    background-color: #EEF5D3;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 768px;
+    margin: 10px auto;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents .step .step-box {
+    display: inline-block;
+    width: 85%;
+    vertical-align: middle;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents .step .step-title {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents .step .step-detail {
+    padding-left: 19px;
+    display: block;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents .step img {
+    display: inline-block;
+    width: 70px;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents img.step_arrow {
+    width: 50px;
+    display: block;
+    margin: 20px auto;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents div.movies {
+    max-width: 560px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents div.movies .movie-title {
+    font-weight: bold;
+    margin: 50px 0 10px 0;
+    font-size: 18px;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents div.movies .movie-detail {
+
+  }
+  #product_flow_contents .product_flow_contents .flow_contents div.contents div.movies .movie-detail table {
+    margin-top: 10px;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents div.movies .movie-detail table tr {
+
+    border: 1px solid #333;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents div.movies .movie-detail table td {
+
+    border: 1px solid #333;
+    padding-left: 15px;
+  }
+
+  #product_flow_contents .product_flow_contents .flow_contents div.contents div.movies iframe {
+    display: block;
+    margin:0 auto;
+  }
+
+
+
+
+
+
 
 
 
@@ -675,8 +829,8 @@
   }
 
   .content_box.with_border {
-		border:1px solid #333;
-	}
+    border:1px solid #333;
+  }
 
   .wrap .detail_button {
     width: 170px;
@@ -691,26 +845,106 @@
   }
 
   .wrap .about_inbound .detail_button {
-		background-color: #93C6E9;
-	}
+    background-color: #93C6E9;
+  }
 
-	.wrap .about_tvshow .detail_button {
-		background-color: #E9C693;
-	}
+  .wrap .about_tvshow .detail_button {
+    background-color: #E9C693;
+  }
 
-	.wrap .news_list .detail_button {
+  .wrap .news_list .detail_button {
     background-color: #EBA88E;
   }
 
   .wrap .news_list .content_box {
-		text-align: left;
-	}
+    text-align: left;
+  }
+
+
+  .wrap .grid_list_box {
+    margin-bottom: 60px;
+  }
+
+  .wrap .grid_list {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .wrap .grid_list .content_title {
+
+  }
+
+  .wrap .grid_list .content_box {
+
+  }
+
+  .wrap .grid_list .left_contents {
+    display: flex;
+  }
+
+  .wrap .grid_list .right_contents {
+    display: flex;
+    margin-top: 35px;
+  }
+
+  .wrap .grid_list .image_content_box span {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+  }
+
+  .wrap .grid_list .image_content_box .kikaku {
+    display: inline-block;
+  }
+
+  .wrap .grid_list .image_content_box .kikaku img {
+    width: 100px;
+    margin: 15px;
+  }
+
+  .wrap .grid_list .image_content_box .batsu {
+    height: 30px;
+    width: 30px;
+    margin: auto 25px;
+  }
+
+  .wrap .grid_list .image_content_box .batsu img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .wrap .grid_list .image_content_box .team {
+    display: inline-block;
+  }
+
+  .wrap .grid_list .image_content_box .team img {
+    width: 100px;
+    margin: 15px;
+  }
 
 
 
+  .link-button a {
+    width: 400px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
 
+    display: block;
+    background-color: #5F9EA3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+  }
 
-
+  .link-button a:active {
+    background-color:#4e9299;
+  }
 
 
 
@@ -840,12 +1074,12 @@
 
   table tr.bangumi {
 
-	}
+  }
 
-	table tr.bangumi th {
-		width:100px;
+  table tr.bangumi th {
+    width:100px;
     font-weight: bold;
-	}
+  }
 
   /*WORKS*/
 

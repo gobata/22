@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: page-inbound
+ * Template Name: page-raien
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages and that
@@ -13,8 +13,10 @@
 
 get_header(); ?>
 
-<div class='wrap inbound'>
-  <div class='top_header'>
+<div class='wrap raien'>
+
+
+  <!-- <div class='top_header'>
     <div class='top_image section' style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/2.jpg');">
       <div class='top_image_overlay'>
       </div>
@@ -33,32 +35,25 @@ get_header(); ?>
         日本企業 × 映像コンテンツで国際競争力を勝ち取る
       </span>
     </div>
-  </div>
+  </div> -->
 
-  <div class='about_inbound content_bgcolor'>
+  <div class='about_inbound content_bgcolor' style='padding:100px 0;'>
     <div class='top_contents'>
-      <div class='content_title'>
-        <span class="glyphicon glyphicon-globe"></span>
-        インバウンド事業
+      <div class='content_title' style='line-height: 45px;' >
+        <span style='font-size:80px;'>雷炎</span></br>
+        <span class='font-size:14px;'>raien</span>
       </div>
       <div class='line_content'></div>
       <div class='content_description'>
-        弊社は平成27年よりテレビ番組の制作会社として設立致しました。<br/>
-        テレビの他にもイベント事業、ネット動画事業など様々なエンターテインメントの創出に日々尽力しております。<br/>
-        <br/>
-        そんな私共が今年よりインバウンド事業部を新たに創設致しました。<br/>
-        <br/>
-        テレビ制作で培ってきたノウハウをフルに活用し、<br/>
-        インバウンド向けの動画制作・イベント企画を中心に<br/>
-        大手企業では実現しにくい100%地域特性に応じたコンサルティング、<br/>
-        さらに独自の送客ルートを活用したMICEの誘致など<br/>
-        地域と二人三脚でインバウンド活性化に務めるDMC的企業を目指します。
+        〜詳細情報は近日公開〜<br/><br/>
+        Information will be released on February 15!<br/>
+        We are now accepting reservations from this website!
       </div>
     </div>
   </div>
 
 
-  <div class='grid_list_box'>
+  <!-- <div class='grid_list_box'>
     <div class='content_title'>
       <span class="glyphicon glyphicon-globe"></span>
       インバウンド動画の二大要素
@@ -97,20 +92,10 @@ get_header(); ?>
         <span>動画制作の企画はコチラ</span>
       </a>
     </div>
-  </div>
+  </div> -->
 
 
-  <!-- 問い合わせフォーム -->
-  <div class='content_bgcolor'>
-    <div class='content_title'>
-      <span class="glyphicon glyphicon-inbox"></span>
-      お問合せ
-    </div>
-    <div class='line_content'></div>
-  <?php if(have_posts()): while(have_posts()): the_post(); ?>
-  <?php the_content(); ?>
-  <?php endwhile; endif; ?>
-  </div>
+
 
 
 </div>

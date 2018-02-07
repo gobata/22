@@ -18,8 +18,14 @@
     </div>
   </div>
 
-  <div class='main'>
-    <div class='main_contents'>
+
+
+  <div class='main' >
+
+    <a href='<?php echo home_url(); ?>/product_flow' style='float: right; margin-top: 15px; margin-right: 30px;'>
+      <span style='font-size:16px; font-weight:bold; text-decoration:underline;'>動画制作依頼についてはこちら</span>
+    </a>
+    <div class='main_contents' style="clear: both;">
       <a href='<?php echo home_url(); ?>/tokyo/'>
         <div class='inbound_department department'>
           <img src='<?php echo get_template_directory_uri(); ?>/images/works/tokyo.jpg'/>
@@ -37,11 +43,16 @@
       <a href='<?php echo home_url(); ?>/inbound/'>
         <div class='inbound_department department'>
           <img src='<?php echo get_template_directory_uri(); ?>/images/works/inbound.jpg'/>
-          <div class='department_name'>インバウンド事業</div>
+          <div class='department_name'>
+            インバウンド事業
+          </div>
         </div>
       </a>
     </div>
+
+
   </div>
+
 </div><!--wrap-->
 
 <?php get_footer();?>

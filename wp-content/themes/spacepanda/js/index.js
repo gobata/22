@@ -31,14 +31,14 @@ $(function () {
 
 
 
+});
 
-
-  // $("#inbound-title1").animate(
-  //   {"left": "-100px",
-  //   complete: function() {
-  //     $("#inbound-title1").animate(
-  //       {"left": "100px"}, 3000);
-  //     }
-  // });
+$(window).scroll(function () {
+       var ScrTop = $(document).scrollTop();
+       if (ScrTop >= 70) {
+         $('.product_flow_sub_menu').css({ "position":"fixed", "top": "0"});
+       } else if (ScrTop <= 70) {
+         $('.product_flow_sub_menu').css("position","absolute");
+       }
 
 });
