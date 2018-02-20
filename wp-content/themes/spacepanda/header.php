@@ -14,13 +14,15 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/sublimeSlideshow.css" media="all" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/pc_style.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/raien_pc_style.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/raien_sp_style.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/lightbox.css">
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.sublimeSlideshow.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/drawer.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.stickystack.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
-
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/lightbox.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.imageScroll.min.js"></script>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -29,6 +31,7 @@
 </head>
 <body <?php body_class(); ?>>
 
+  <?php if ( !is_page('raien') ) : ?>
   <header class="clearfix">
     <div class='header_contents'>
       <h1 class="header_logo">
@@ -92,7 +95,7 @@
         </nav>
       <?php endif; ?>
 
-      <?php if (is_page('fukuoka') || is_parent_slug() === 'fukuoka') : ?>
+      <!-- <?php if (is_page('fukuoka') || is_parent_slug() === 'fukuoka') : ?>
         <nav id="fukuoka-gnav" class="pure-drawer" data-position="left">
           <?php wp_nav_menu( array(
             'container' => false ,
@@ -100,8 +103,7 @@
             'theme_location'=>'fukuoka_menu'
           ) ); ?>
         </nav>
-      <?php endif; ?>
+      <?php endif; ?> -->
     </div>
-
-
 </header>
+<?php endif; ?>

@@ -13,7 +13,7 @@
   <li>
     <a href='<?php echo home_url(); ?>/tokyo/'>
       Top
-      <span>東京オフィス</span>
+      <span>テレビ事業</span>
     </a>
   </li>
   <li>
@@ -50,12 +50,12 @@
 </ul>
 
 <ul style='margin-top:80px;'>
-  <li>
+  <!-- <li>
     <a href='<?php echo home_url(); ?>/fukuoka/'>
       Fukuoka Office
       <span>福岡オフィス</span>
     </a>
-  </li>
+  </li> -->
   <li>
     <a href='<?php echo home_url(); ?>/inbound/'>
       Inbound

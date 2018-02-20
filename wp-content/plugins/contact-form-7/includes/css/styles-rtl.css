@@ -2,7 +2,7 @@ span.wpcf7-not-valid-tip {
 	direction: rtl;
 }
 
-.use-floating-validation-tip span.wpcf7-not-valid-tip { 
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
 	left: auto;
 	right: 20%;
 }

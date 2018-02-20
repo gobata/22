@@ -26,7 +26,7 @@ get_header(); ?>
       <div class='header_image'>
         <img src='<?php echo get_template_directory_uri(); ?>/images/tokyo_office03.jpg'/>
         <div class='office_name'>
-          東京オフィス
+          テレビ事業
         </div>
       </div>
 
@@ -77,16 +77,16 @@ get_header(); ?>
             <a href='<?php echo home_url(); ?>/tokyo/'>
               <div class='inbound_department department'>
                 <img src='<?php echo get_template_directory_uri(); ?>/images/works/tokyo.jpg'/>
-                <div class='department_name'>東京オフィス</div>
+                <div class='department_name'>テレビ事業</div>
               </div>
             </a>
 
-            <a href='<?php echo home_url(); ?>/fukuoka/'>
+            <!-- <a href='<?php echo home_url(); ?>/fukuoka/'>
               <div class='inbound_department department'>
                 <img src='<?php echo get_template_directory_uri(); ?>/images/works/fukuoka.jpg'/>
                 <div class='department_name'>福岡オフィス</div>
               </div>
-            </a>
+            </a> -->
 
             <a href='<?php echo home_url(); ?>/inbound/'>
               <div class='inbound_department department'>

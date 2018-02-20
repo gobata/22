@@ -30,7 +30,16 @@ $(function () {
 
 
 
+  $('.raien-img-holder').imageScroll({});
 
+
+  $("#raien .check_term input").change(function(){
+	if ($(this).is(':checked')) {
+		$(".raien-reservation").fadeIn();
+	} else {
+    $(".raien-reservation").fadeOut();
+	}
+});
 });
 
 $(window).scroll(function () {

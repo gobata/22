@@ -49,7 +49,7 @@
   <li>
     <a href='<?php echo home_url(); ?>/tokyo/'>
       Tokyo Office
-      <span>東京オフィス</span>
+      <span>テレビ事業</span>
     </a>
   </li>
   <li>

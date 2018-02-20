@@ -1150,6 +1150,18 @@
   .require .contact_input {
     padding-left: 42px;
   }
+  span.wpcf7-list-item {
+    display: block;
+    height: 40px;
+  }
+
+  span.wpcf7-list-item input[type=radio] {
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+
+
   .contact_input {
     padding: 15px;
     width: 100%;
