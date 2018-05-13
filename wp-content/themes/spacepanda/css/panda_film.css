@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.panda-film-box {
+  max-width:1000px;
+  margin:auto;
+}
+
+.panda-film-box img {
+  display: block;
+  width:100%;
+}

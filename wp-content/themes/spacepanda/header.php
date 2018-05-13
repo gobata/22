@@ -14,8 +14,8 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/sublimeSlideshow.css" media="all" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/pc_style.css">
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/raien_pc_style.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/raien_sp_style.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/raien_pc_style.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/lightbox.css">
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -30,7 +30,6 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-
   <?php if ( !is_page('raien') ) : ?>
   <header class="clearfix">
     <div class='header_contents'>

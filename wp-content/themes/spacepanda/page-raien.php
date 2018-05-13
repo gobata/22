@@ -42,7 +42,7 @@ get_header(); ?>
         <?php if($is_japan): ?>
           <span class='raien-sub-name'>外国人向け 相撲体験教室</span><br/>
         <?php else: ?>
-          <span class='raien-sub-name'>Sumo Experience Lesson for Foreigners/Tourists</span><br/>
+          <span class='raien-sub-name'>Sumo Experience Lesson for Foreigners/Tourists<br/>In Tokyo</span><br/>
         <?php endif; ?>
         <span class='raien-name'>
           <img style="" src='<?php echo get_template_directory_uri(); ?>/images/raien_logo.png'/>
@@ -259,7 +259,50 @@ get_header(); ?>
 
     <div class='raien-contents raien-agreement'>
       <?php if($is_japan): ?>
+        <h2 class='title'>参加にあたって、以下の項目について同意をお願いいたします。</h2>
+        <div class='description'>
+          私は、私自身及び私と同グループの申込者（以下、併せて単に「申込者」という。）を代表して、<br/>
+          貴社が運営及び管理を行う外国人観光客向け相撲教室「雷炎－RAIEN－」（以下「本件イベント」という。）に参加するにあたり、下記の事項に同意します
+        </div>
+        <div class='description agreement'>
+          <ol>
+            <li>
+              申込者は、本件イベントに参加する時点において、以下のいずれの身体状況でないこと。<br/>
+              ・体調不良<br/>
+              ・妊娠中<br/>
+              ・飲酒、二日酔いその他アルコール影響下にあること<br/>
+              ・薬物の影響下にあること<br/>
+              ・心臓疾患その他重大な傷病<br/>
+              ・その他本件イベントに参加するにふさわしくない身体状況
+            </li>
+            <li>
+              本件イベント中に生じた申込者の負傷、疾病、障害、死亡その他の人身障害について、一切の責任を申込者が負い、貴社に対する一切の請求権を放棄すること。
+            </li>
+            <li>
+              申込者は、本件イベント中、医療的処置が必要と判断された場合、申込者の家族又は保護者への連絡なく、医療機関に搬送され又は医療処置を受けること。また、申込者は、当該医療処置等にかかる費用を負担すること。
+            </li>
+            <li>
+              本件イベント中に生じた荷物の紛失、盗難、破損、汚損その他の事故について、一切の責任を申込者が負い、貴社に対する一切の請求権を放棄すること。
+            <li>
+              本件イベントに申込み後、申込者が申込者の都合により本件イベントの参加をキャンセルした場合、如何なる理由があっても、申込者が既に支払った本件イベントに対する費用は一切返金できないこと。
+            </li>
+            <li>
+              申込者が本件イベントに遅刻した場合若しくは本件イベントに参加できなかった場合又は本件イベントを早退した場合、如何なる理由があっても、申込者が既に支払った本件イベントに対する費用は一切返金できないこと。
+            </li>
+            <li>
+              本件イベントに申込み後、申込者が申込者の都合により本件イベントの参加内容を変更した場合（相撲教室の体験から相撲教室の見学への変更を含む。）、申込者が既に支払った本件イベントに対する費用は一切返金できないこと。
+            </li>
+            <li>
+              本件イベント中の申込者の氏名、住所、声、写真、映像その他の記録が、本件イベントの広告活動のために、テレビ、インターネットウェブサイト、SNS、新聞その他メディアにおいて無償で公開されること。
+            </li>
+          </ol>
 
+          <br/>
+          <div class='check_term'>
+            <label>私は以上の項目に全て同意します</lable>
+            <input type='checkbox'></input>
+          </div>
+        </div>
       <?php else: ?>
         <h2 class='title'>Agreement for participation</h2>
         <div class='description'>
@@ -324,7 +367,7 @@ get_header(); ?>
         </div>
       <?php else: ?>
         <h2 class='title'>Reservation Form</h2>
-        <div class='description'>
+        <div class='description' style='padding:3px;'>
           <?php if(have_posts()): while(have_posts()): the_post(); ?>
           <?php the_content(); ?>
           <?php endwhile; endif; ?>
